@@ -1,7 +1,7 @@
 pipeline {
     agent {
         node {
-              label 'wind-node'
+              label 'master'
             }
         } 
     stages {
