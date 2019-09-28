@@ -1,5 +1,9 @@
 pipeline {
-    agent windows-node
+    agent {
+        node {
+              label 'master'
+            }
+        } 
     stages {
         stage('---clean---') {
             steps {
